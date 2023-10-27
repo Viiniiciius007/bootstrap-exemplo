@@ -19,7 +19,26 @@
               data-bs-target="#navbarMain">
               <span class="navbar-toggler-icon"></span>
             </button>
+            <div class="collapse navbar-collapse" id="navbarMain">
+              <ul class="navbar-nav">
+                <li class="navbar-item">
+                  <a class="navbar-link" href="#">Home Page</a>
+                </li>
+                <li class="navbar-item dropdown">
+                  <a class="navbar-link dropdown-toggle" href="#"
+                  id="menulink" role="button"
+                  data-bs-toggle="dropdown" aria-expanded="false">Cardápio</a>
+                  <ul class="dropdown-menu" aria-labelledby="menulink">
+                    <li>
+                      <a class="dropdown-item">Hamburger</a>
+                    </li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
           </div>
       </nav>
+
+      <script src="./js/bootstrap.bundle.min.js"></script>
   </body>
 </html>
